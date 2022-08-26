@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #6addad;
+    --light: #e6e6e6;
+    --off-white: #e9e9e9;
+    --dark: #313131;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1;
+}
+.container {
+    margin: 0 1rem;
+}
+/*Global*/
+.coming_soon,
+.form,
+.counter,
+.counter .count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coming_soon {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 100vh;
+}
+.sm_text {
+    font-size: clamp(1.2rem,2vw,2rem);
+    margin-bottom: -0.5em;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-family: 'Courgette', cursive;
+}
+.main_text {
+    font-size: clamp(2.5rem,10vw,6.5rem);
+    text-transform: uppercase;
+    letter-spacing: -0.07em;
+    margin: 0;
+    color: var(--dark);
+    font-weight: 800;
+}
+.main_para {
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 1.35rem auto;
+}
+/*Form*/
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form input, .form button {
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+}
+.form input {
+    background: var(--off-white);
+    flex: 1;
+}
+.form button {
+    background: var(--primary);
+    color: var(--light);
+    cursor: pointer;
+}
+/*Counter*/
+.counter {
+    flex-wrap: wrap;
+    margin:  1rem 0;
+}
+.counter .count {
+    flex-direction: column;
+    margin: .5rem;
+    color: var(--dark);
+    background: var(--off-white);
+    width: 90px;
+    border-radius: .35rem;
+    padding: 1rem;
+}
+.counter .count span.digit {
+    font-size: clamp(1.35rem,2vw,2rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.counter .count span {
+    opacity: .80;
+    font-weight: 500;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+/*Socials*/
+.socials a {
+    margin: 0 0.75rem;
+    opacity: .7;
+    color: var(--dark);
+    font-size: 1.15rem;
+    transition: .3s ease;
+}
+.socials a:hover { 
+    opacity: 1;
+    color: var(--primary);
+}

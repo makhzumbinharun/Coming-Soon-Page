@@ -1,0 +1,24 @@
+{
+  "name": "coming-soon-page-design-html-css-javascript",
+  "version": "1.0.0",
+  "description": "This Tutorial Shows How You Can Design The Coming Soon Webpage With Countdown Timer Using HTML, CSS, And JavaScript.\n\n\nThe source files will be uploaded on my blog as always. \n\nhttps://opacitycode.blogspot.com/\n\n\nPLEASE SUBSCRIBE!\n 💝 https://www.youtube.com/c/codeopacity",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
