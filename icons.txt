@@ -1,0 +1,8 @@
+    Website:    <a href="#" target="_blank"><span class="op-globe"></span></a>
+    Facebook:   <a href="#" target="_blank"><span class="op-facebook"></span></a>
+    Instagram:  <a href="#" target="_blank"><span class="op-instagram"></span></a>
+    Github:     <a href="#" target="_blank"><span class="op-github"></span></a>
+    Twitter:    <a href="#" target="_blank"><span class="op-twitter"></span></a>
+    Youtube:    <a href="#" target="_blank"><span class="op-youtube"></span></a>
+    Linkedin:   <a href="#" target="_blank"><span class="op-linkedin"></span></a>
+    E-Mail:     <a href="mailto:#" target="_blank"><span class="op-mail"></span></a>
