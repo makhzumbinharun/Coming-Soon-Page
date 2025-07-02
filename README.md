@@ -1,2 +1,3 @@
 # Coming-Soon-Page
-This is a design of coming soon webpage
+This is a design for a coming soon webpage
+![COMMING SOON_SAMPLE](COMMING SOON_SAMPLE)
